@@ -1,52 +1,56 @@
-# [BionicReader](https://bionicreader.vercel.app/) - read blazingly fast!
+# BionicReader - Read Blazingly Fast!
 
-**BionicReader** is a simple web application that reads and formats text for faster reading by applying a bold style to the first half of each word.
+BionicReader is a simple web application that formats text for faster reading by applying a bold style to the first half of each word, helping you read at double the speed. It's a great tool for students, researchers, and anyone looking to improve their reading efficiency.
 
-![image](https://github.com/NisooJadhav/BionicReader/assets/68807845/3c708edc-4421-4493-bbe6-461b3bb666ea)
+Our brain can often predict a word after seeing just the first 2-3 letters, ignoring the rest. This ability enhances reading speed and efficiency. Bionic reading leverages this by using bold text to help you grasp content quickly and improve comprehension.
 
-Our brain can often predict a word after seeing just the first 2-3 letters, ignoring the rest. This ability can double reading speed, making it faster and more efficient. This is the advantage of bionic reading, which leverages our brain's natural prediction capabilities to enhance comprehension and speed.
+✨ Want a Bionic Font for everyday usage? Get it here ↗
+✨ New Features
+Dark Mode Toggle: A user-friendly dark mode option for reading in low-light environments.
+Smooth Animations: Added animations to enhance interaction and provide a seamless reading experience.
+Typing Effect: A cool typing effect for dynamic headlines, making the application more engaging.
+UI Enhancements: Improved layout and font pairing for better readability and visual appeal.
+📋 Contents
+Usage
+How it Works
+Installation
+Contributing
+🛠️ Usage
+To use BionicReader, follow these steps:
 
-Want **Bionic Font** instead for day-to-day usage? [Get here ↗](https://bionic-reading.com/)
-
-## Contents
-
-- [Usage](#usage)
-- [How it Works](#how-it-works)
-- [Installation](#installation)
-- [Contributing](#contributing)
-
-## Usage
-
-To use the Bionic Reader, follow these steps:
-
-1. Clone the repository to your local machine:
+Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/NisooJadhav/BionicReader.git
+   Open the index.html file in your web browser.
    ```
 
-2. Open the `index.html` file in your web browser.
+You'll see:
 
-3. You'll see a text input field, a "SUBMIT" button, and a space to display the formatted text.
+A text input field
+A "SUBMIT" button
+A space to display the formatted text
+Enter or paste your text into the input field.
 
-4. Enter or paste your text into the input field.
+Click the "SUBMIT" button.
 
-5. Click the "SUBMIT" button.
+The application will format the text by making the first half of each word bold and displaying it below.
 
-6. The application will format the text by making the first half of each word bold and displaying it below.
+🌙 New Dark Mode Toggle
+For a better reading experience, especially at night, use the dark mode toggle to switch between light and dark themes.
 
-## How it Works
+🔧 How it Works
+The app.js file contains the JavaScript code that formats the text. It splits the input text into words and applies bold formatting to the first half of each word.
+The style.css file defines the overall look and feel of the page, including background, fonts, and styles for various elements like the text input, button, and the animated text at the top.
+🚀 Installation
+Simply open the index.html file in any modern web browser. No additional dependencies or setup is required.
 
-The `app.js` file contains the JavaScript code that handles the formatting of the text. It splits the input text into words, and for each word, it makes the first half bold and combines it with the remaining part of the word.
+🤝 Contributing
+We welcome contributions to improve BionicReader!
 
-The `style.css` file is responsible for styling the web page. It sets the background, fonts, and styles for various elements like the text input, button, and the animated text at the top.
+Fork the repository.
+Make your changes.
+Submit a pull request.
+Contributions for new features like additional animations, UI tweaks, and performance improvements are always appreciated.
 
-## Installation
-
-You can run this application by simply opening the `index.html` file in a web browser. There are no additional dependencies or installation steps required.
-
-## Contributing
-
-If you would like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. We welcome contributions and improvements to make this tool even more useful.
-
-### Show your ❤️ give this repo a ⭐
+Show your ❤️ by giving this repo a ⭐!
